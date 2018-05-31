@@ -121,6 +121,29 @@ semi-supervised learning validate the effectiveness
         Machine Learning, 2018, 107(4): 703-725.
         <a class="tag" href="/pdf/acml17.pdf">PDF</a>
         </p>
+        <p>
+          In this paper we study multi-label learning with weakly labeled data,
+i.e., labels of training examples are incomplete. This includes, e.g., (i) semi-supervised
+multi-label learning where completely labeled examples are partially known; (ii)
+weak label learning where relevant labels of examples are partially known; iii) extended
+weak label learning where relevant and irrelevant labels of examples are
+partially known. Weakly labeled data commonly occur in real applications, e.g.,
+image classification, document categorization. Previous studies often expect that
+learning methods with the use of weakly labeled data improve learning performance,
+as more data are employed. This, however, is not always the cases in reality.
+Using more weakly labeled data may sometimes degenerate learning performance.
+It is desirable to learn safe multi-label prediction that will not hurt performance
+when weakly labeled data is used. In this work we optimize multi-label evaluation
+metrics (F1 score and Top-k precision) given that ground-truth label assignments
+are realized by a convex combination of basic multi-label learners. To cope with
+infinite number of possible ground-truth label assignments, cutting-plane strategy
+is adopted to iteratively generate the most helpful label assignments. The
+whole optimization is cast as a series of simple linear programs in an efficient
+manner. Extensive experiments on three weakly labeled learning tasks, namely,
+i) semi-supervised multi-label learning; ii) weak-label learning and iii) extended
+weak-label learning, show that our proposal clearly improves the safeness in comparison
+to many state-of-the-art methods.
+        </p>
       </div>
     </div>
   </article>
