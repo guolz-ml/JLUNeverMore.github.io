@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications</title>
+  <meta name="description" content="Homepage for Lanzhe Guo.">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" id="bulma" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/base.css">
+  <link rel="stylesheet" type="text/css" href="/styles/academicons.min.css">
+
+  <link rel="canonical" href="http://www.guolz.com/publications">
+</head>
+
+  <body>
+    <section class="hero is-fullheight">
+      <div class="hero-head">
+        <nav class="navbar" role="navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <strong>Lanzhe Guo (郭 兰哲)</strong>
+    </a>
+
+    <div class="navbar-burger" data-target="navbar-main">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="navbar-menu" id="navbar-main">
+    <div class="navbar-start">
+      <!-- navbar items -->
+      <a href="/" class="navbar-item">
+        About
+      </a>
+      <a class="navbar-item" href="/publications">
+        Publications
+      </a>
+      <a class="navbar-item" href="/resume.pdf">
+        Resume
+      </a>
+      <a class="navbar-item" href="/share">
+        Sharing
+      </a>
+      <a class="navbar-item" href="/paper-reading">
+      Paper Reading
+      </a>
+    </div>
+
+    <div class="navbar-end">
+        <!-- navbar items -->
+        <div class="navbar-item">
+          <a href="mailto:guolz@lamda.nju.edu.cn" class="button is-white">
+            <i class="fa fa-lg fa-envelope-o" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/JLUNeverMore" class="button is-white">
+            <i class="fa fa-lg fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.zhihu.com/people/gzxl" class="button is-white">
+              <img src="images/zhihu.png" width="20" height="20">
+          </a>
+          <!--<a href="https://www.douban.com/people/pluskid/" class="button is-white">
+            <img src="/images/douban.png" width="20" height="20">
+          </a>-->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+      </div>
+
+
+      <div class="hero-body">
+        <div class="container">
+    <div class="media-content">
+      <div class="content">
+  <h2>Performance Measure Optimization</h2>
+<ul>
+  <li>
+        <a class="tag" href="https://arxiv.org/abs/1805.11221"><b>MBA: Mini-Batch AUC Optimization.</b></a>
+  </li>
+  <li>
+      <a class="tag" href="https://arxiv.org/abs/1608.04802"><b>Scalable Learning of Non-Decomposable Objectives</b></a>
+  </li>
+  <li>
+      <a class="tag" href="https://arxiv.org/abs/1802.00086"><b>Optimizing Non-decomposable Measures with Deep Networks</b></a>
+  </li>
+</ul>
+
+<h2>Bilevel Optimization</h2>
+<ul>
+    <li>
+        <a class="tag" href="https://arxiv.org/abs/1803.09050"><b>Learning to Reweight Examples for Robust Deep Learning (ICML 2018)</b></a>
+    </li>
+    <li>
+        <a class="tag" href="http://proceedings.mlr.press/v70/franceschi17a/franceschi17a.pdf"><b>Forward and Reverse Gradient-Based Hyperparameter Optimization (ICML 2017</b></a>
+    </li>
+    <li>
+        <a class="tag" href="https://arxiv.org/abs/1806.04910"><b>Bilevel Programming for Hyperparameter Optimization and Meta-Learning (ICML 2018)</b></a>
+    </li>
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1903.03088.pdf"><b>Self-Tuning Networks: Bilevel Optimization of Hyperparameters using Structured Best-Response Functions (ICLR 2019)</b></a>
+    </li>
+</ul>
+
+<h2>Deep SSL</h2>
+<ul>
+    <li>
+        <a class="tag" href="http://deeplearning.net/wp-content/uploads/2013/03/pseudo_label_final.pdf"><b>Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks (ICML 2013)</b></a>
+    </li>
+
+    <li>
+        <a class="tag" href="http://papers.nips.cc/paper/5487-learning-with-pseudo-ensembles.pdf">
+        <b>Learning with Pseudo-Ensembles (NIPS 2014)</b></a>
+    </li>
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1507.02672.pdf">
+        <b>Semi-Supervised Learning with Ladder Networks (NIPS 2015)</b></a>
+    </li>   
+    <li>
+        <a class="tag" href="https://arxiv.org/abs/1606.04586">
+        <b>Regularization With Stochastic Transformations and Perturbations for Deep Semi-Supervised Learning (NIPS 2016)</b></a>
+    </li>      
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1610.02242.pdf">
+        <b>Temporal Ensembling for Semi-supervised Learning (ICLR 2017)</b></a>
+    </li>  
+    <li>
+        <a class="tag" href="https://arxiv.org/abs/1610.05755.pdf">
+        <b>Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data (ICLR 2017)</b></a>
+    </li>  
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1703.01780.pdf">
+        <b>Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results (NIPS 2017)</b></a>
+    </li>  
+    <li>
+        <a class="tag" href="https://www.ijcai.org/proceedings/2018/0278.pdf">
+        <b>Tri-net for Semi-Supervised Deep Learning (IJCAI 2018)</b></a>
+    </li>    
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1704.03976.pdf">
+        <b>Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning (TPAMI)</b></a>
+    </li>  
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1905.02249v1.pdf">
+        <b>MixMatch - A Holistic Approach to Semi-Supervised Learning</b></a>
+    </li>  
+    <li>
+        <a class="tag" href="https://arxiv.org/pdf/1904.12848.pdf">
+        <b>Unsupervised Data Augmentation</b></a>
+    </li>     
+</ul>
+
+ 
+      <div class="hero-foot">
+        <footer class="footer">
+  <div class="container">
+    <div class="content has-text-right is-size-7">
+      <p>
+        © 2018 by Lan-Zhe Guo. All Rights Reserved.
+        &nbsp;&nbsp;
+          Links:&nbsp;&nbsp;
+          <a href="http://www.sshao.com">Shuai Shao</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script async type="text/javascript" src="/javascript/bulma.js"></script>
+
+      </div>
+    </section>
+  </body>
+</html>
